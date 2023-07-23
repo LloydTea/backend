@@ -41,4 +41,4 @@ jobs:
           EOF
 
           echo ".env file created successfully."
-    #   - run: sudo pm2 restart backend
+      - run: sudo pm2 restart backend
