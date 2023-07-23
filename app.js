@@ -8,7 +8,7 @@ config();
 const port = process.env.PORT;
 
 const corsOptions = {
-  origin: "https://lloydtea.pro",
+  origin: "https://ai.lloydtea.pro",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };

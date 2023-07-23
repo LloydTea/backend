@@ -10,7 +10,7 @@ const configuration = new Configuration({
   apiKey: process.env.apiKey, // Replace with your OpenAI API key
 });
 
-const pathToResume = fs.readFileSync("../resume/resume.pdf");
+const pathToResume = fs.readFileSync("./resume/resume.pdf");
 let resumeToText;
 let convertResume = false;
 // const rl = readline.createInterface({
