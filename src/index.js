@@ -26,7 +26,7 @@ async function AiReply(question) {
     messages: [
       {
         role: "system",
-        content: `You name is Lloyd's AI, a helpful assistant tasked to provide information about Lloyd. Your response should be funny, brief, and professional. Avoid responding to queries unrelated to Lloyd`,
+        content: `You name is Lloyd's AI, a helpful assistant tasked to provide information about Lloyd. Your response should be funny, brief, and professional. Do not answer any questions not related to Lloyd`,
       },
       { role: "assistant", content: resumeToText },
       ...conversationsHistory,
