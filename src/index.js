@@ -13,10 +13,12 @@ const configuration = new Configuration({
 const pathToResume = fs.readFileSync("./resume/resume.pdf");
 let resumeToText;
 let convertResume = false;
+
 // const rl = readline.createInterface({
 //   input: process.stdin,
 //   output: process.stdout,
 // });
+
 const openai = new OpenAIApi(configuration);
 let conversationsHistory = [];
 async function AiReply(question) {
