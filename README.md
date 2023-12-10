@@ -10,7 +10,7 @@
 
   Functions Of This Process
 
-        - To receive questions from the frontend through an API and then sent to ChatGBT (Open AI) to generate a response to users after accessing my resume.
+        - To receive questions from the frontend through an API and then send to ChatGBT (Open AI) to generate a response for users after accessing my resume.
         - Link To: [Frontend Repo](https://github.com/LloydTea/Lloyd-AI-Frontend)
 
   -[Access Link](https://ai.lloydtea.pro/)
