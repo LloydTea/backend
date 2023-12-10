@@ -5,6 +5,7 @@
         - Node.js
         - Open AI
         - AWS EC2 Instance
+        - CICD (Git Runner)
 
 - ### Project Information
 
