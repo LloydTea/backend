@@ -2,6 +2,7 @@ const { config } = require("dotenv");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const app = require("express")();
+const severless = require("serverless-http");
 
 config();
 
@@ -24,6 +25,7 @@ const router = require("./route/connector");
 
 app.use("/", router.router);
 
+export const handler = severless(app);
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
